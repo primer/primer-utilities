@@ -1,0 +1,29 @@
+// Text alignments
+// scss-lint:disable UtilityClasses
+.text-right { text-align: right !important; }
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+
+// Text styles
+.text-normal { font-weight: normal !important; }
+.text-bold { font-weight: bold !important;}
+.text-italic { font-style: italic !important;}
+.no-underline { text-decoration: none !important; }
+.no-wrap { white-space: nowrap !important;}
+
+.vertical-middle { vertical-align: middle !important; }
+
+.text-small { font-size: 12px !important; }
+
+// Large leading paragraphs
+.lead {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #555;
+}
+
+.text-emphasized {
+  font-weight: bold;
+  color: $text-gray-dark;
+}

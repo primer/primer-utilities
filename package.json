@@ -1,0 +1,25 @@
+{
+  "name": "primer-utilities",
+  "version": "0.1.0",
+  "description": "GitHub Primer - Utilities",
+  "homepage": "https://github.com/styleguide",
+  "license": "MIT",
+  "repository": "https://github.com/primer/utilities.git",
+  "main": "utilities.scss",
+  "bugs": {
+    "url": "https://github.com/primer/utilities/issues"
+  },
+  "author": "GitHub, Inc.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "primer-support": "^0.2.0"
+  },
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ]
+}
