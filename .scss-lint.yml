@@ -41,7 +41,7 @@ linters:
   UtilityClasses:
     enabled: true
     utility_files:
-      - "node_modules/primer-css/scss/utilities/utilities.scss"
+      - "app/assets/stylesheets/_lint-check.scss"
 
   VariablesFile:
     enabled: true
