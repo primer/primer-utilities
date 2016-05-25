@@ -1,20 +1,33 @@
 {
-  "name": "primer-utilities",
   "version": "0.1.0",
-  "description": "GitHub Primer - Utilities",
-  "homepage": "https://github.com/styleguide",
+  "name": "primer-utilities",
+  "description": "Immutable, atomic CSS classes to rapidly build product",
+  "homepage": "http://primercss.io/",
+  "author": "GitHub, Inc.",
   "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib"
+  ],
   "repository": "https://github.com/primer/utilities.git",
-  "main": "utilities.scss",
   "bugs": {
     "url": "https://github.com/primer/utilities/issues"
   },
-  "author": "GitHub, Inc.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run setup && npm run preprocess",
+    "lint": "scss-lint **/*.scss",
+    "preprocess": "node-sass index.scss --include-path node_modules | postcss -c .postcss.json -o build/build.css",
+    "setup": "npm install",
+    "test": "npm run lint"
   },
   "dependencies": {
-    "primer-support": "^0.2.0"
+    "primer-support": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
   },
   "keywords": [
     "primer",
