@@ -1,6 +1,7 @@
-// scss-lint:disable SpaceBeforeBrace
+// Layout
+// stylelint-disable block-opening-brace-space-after, block-opening-brace-space-before, primer/selector-no-utility
+
 // position utilites
-// scss-lint:disable UtilityClasses
 .position-static   { position: static !important; }
 .position-relative { position: relative !important; }
 .position-absolute { position: absolute !important; }

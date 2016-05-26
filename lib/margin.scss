@@ -1,6 +1,5 @@
-// scss-lint:disable SpaceAfterPropertyName
 // Margin spacer utilities
-// scss-lint:disable UtilityClasses
+// stylelint-disable block-opening-brace-space-before, declaration-colon-space-before, primer/selector-no-utility
 @for $i from 1 through length($spacers) {
   $size: #{nth($spacers, $i)};
   $scale: #{$i - 1};

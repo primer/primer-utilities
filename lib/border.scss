@@ -1,5 +1,5 @@
 // Border utilities
-// scss-lint:disable UtilityClasses
+// stylelint-disable block-opening-brace-space-before, primer/selector-no-utility
 .border        { border: $border !important; }
 .border-top    { border-top: $border !important; }
 .border-right  { border-right: $border !important; }
