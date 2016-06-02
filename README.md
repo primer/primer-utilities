@@ -7,10 +7,6 @@
 
 This repository is a module of the full [primer-css][primer] repository.
 
-## Documentation
-
-You can read more about utilities in the [docs][docs].
-
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-utilities` with this command.
@@ -37,18 +33,15 @@ For a compiled **css** version of this module, a npm script is included that wil
 $ npm run build
 ```
 
-## Related
+## Documentation
 
-* [Primer Documentation][docs]
-* [primer-css][primer]
-* [primer-support][primer-support]
+You can read more about utilities in the [docs][docs].
 
 ## License
 
-MIT &copy; [GitHub](https://github.com/)
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
 [primer]: https://github.com/primer/primer
-[primer-support]: https://github.com/primer/primer-support
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
