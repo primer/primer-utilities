@@ -1,11 +1,12 @@
 {
-  "version": "0.2.2",
+  "version": "0.3.0",
   "name": "primer-utilities",
   "description": "Immutable, atomic CSS classes to rapidly build product",
   "homepage": "http://primercss.io/",
   "author": "GitHub, Inc.",
   "license": "MIT",
   "style": "index.scss",
+  "main": "build/index.js",
   "files": [
     "index.scss",
     "lib",
@@ -17,8 +18,9 @@
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
+    "stats": "(echo \"module.exports = { 'cssstats': \" && cssstats build/build.css && echo \"}\") > build/index.js",
     "build": "node-sass index.scss --include-path node_modules --output-style compressed | postcss -c .postcss.json -o build/build.css",
-    "prepublish": "npm run setup && npm run build",
+    "prepublish": "npm run setup && npm run build && npm run stats",
     "test": "stylelint **/*.scss -c .stylelintrc.json -s scss"
   },
   "dependencies": {
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "cssstats-cli": "^1.0.0-beta.2",
     "node-sass": "^3.7.0",
     "postcss-cli": "^2.5.2",
     "stylelint": "^6.5.1",
