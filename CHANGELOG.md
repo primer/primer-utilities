@@ -1,3 +1,8 @@
+# HEAD
+
+ * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
+ * fix typo on visibility utility - broccolini [github/github@7d52b85](https://github.com/github/github/commit/7d52b85)
+
 # v0.2.2
 
  * Mentioning the build file - Jon Rohan [github/github@64ca4a7](https://github.com/github/github/commit/64ca4a7)
