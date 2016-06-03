@@ -1,5 +1,5 @@
 // Text alignments
-// stylelint-disable block-closing-brace-space-before, primer/selector-no-utility
+// stylelint-disable block-closing-brace-space-before, primer/selector-no-utility, selector-list-comma-newline-after
 .text-right { text-align: right !important; }
 .text-left { text-align: left !important; }
 .text-center { text-align: center !important; }
@@ -10,8 +10,6 @@
 .text-italic { font-style: italic !important;}
 .no-underline { text-decoration: none !important; }
 .no-wrap { white-space: nowrap !important;}
-
-.vertical-middle { vertical-align: middle !important; }
 
 .text-small { font-size: 12px !important; }
 
@@ -27,3 +25,24 @@
   font-weight: bold;
   color: $text-gray-dark;
 }
+
+// Heading utilities
+.h1, .h2, .h3, .h4, .h5, .h6 { font-weight: bold !important; }
+
+.h1 { font-size: 30px !important; }
+.h2 { font-size: 20px !important; }
+.h3 { font-size: 14px !important; }
+.h4 { font-size: 13px !important; }
+.h5 { font-size: 12px !important; }
+
+// Does not include color property like typography base
+// styles, color should be applied with color utilities.
+.h6 { font-size: 11px !important; }
+
+// Line-height variations
+// Close to commonly used line-heights. Most line-heights
+// combined with type size equate to whole pixels.
+// Will be improved with future typography scale updates.
+.lh-condensed-ultra { line-height: 1 !important; }
+.lh-condensed { line-height: 1.25 !important; }
+.lh-default { line-height: 1.5 !important; }

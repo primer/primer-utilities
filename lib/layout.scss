@@ -1,5 +1,6 @@
 // Layout
 // stylelint-disable block-opening-brace-space-after, block-opening-brace-space-before, primer/selector-no-utility
+// stylelint-disable block-closing-brace-newline-before, block-opening-brace-newline-after
 
 // position utilites
 .position-static   { position: static !important; }
@@ -12,12 +13,18 @@
 .bottom-0 { bottom: 0 !important; }
 .left-0   { left: 0 !important; }
 
-// Display utilites
-.d-block        { display: block !important; }
-.d-inline       { display: inline !important; }
-.d-inline-block { display: inline-block !important; }
-.hidden, // legacy
-.d-none         { display: none !important; }
+// Vertical alignment
+.vertical-middle, // deprecated: Use .v-align-middle instead
+.v-align-middle { vertical-align: middle !important; }
+.v-align-top    { vertical-align: top !important; }
+.v-align-bottom { vertical-align: bottom !important; }
+
+// Overflow utilities
+// overflow-hidden can also be used to create a new
+// block formatting context or clear floats.
+.overflow-hidden { overflow: hidden !important; }
+.overflow-scroll { overflow: scroll !important; }
+.overflow-auto   { overflow: auto !important; }
 
 // Clear floats
 .clearfix {
@@ -30,3 +37,23 @@
 
 .left, // legacy
 .float-left { float: left !important; }
+
+// Width and height utilities, helpful in combination
+// with display-table utilities and images
+.width-fit   { max-width: 100% !important; }
+.width-full  { width: 100% !important; }
+.height-full { height: 100% !important; }
+
+// Visibility utilities
+.v-hidden { visibility: hidden !important; }
+.v-visible { visibility: visible !important; }
+
+// Display utilites
+.d-table      { display: table !important; }
+.d-table-cell { display: table-cell !important; }
+
+.d-block        { display: block !important; }
+.d-inline       { display: inline !important; }
+.d-inline-block { display: inline-block !important; }
+.hidden, // legacy
+.d-none         { display: none !important; }
