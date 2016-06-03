@@ -1,5 +1,8 @@
-# HEAD
+# v0.3.0
 
+ * 0.3.0 - Jon Rohan [github/github@8478cb3](https://github.com/github/github/commit/8478cb3)
+ * revert to correct plugins - Jon Rohan [github/github@bcffe49](https://github.com/github/github/commit/bcffe49)
+ * Adding stats script to generate build/index.js file - Jon Rohan [github/github@91a4720](https://github.com/github/github/commit/91a4720)
  * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
  * fix typo on visibility utility - broccolini [github/github@7d52b85](https://github.com/github/github/commit/7d52b85)
 
