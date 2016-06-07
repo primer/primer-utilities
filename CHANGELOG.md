@@ -1,3 +1,7 @@
+# HEAD
+
+ * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
+
 # v0.3.0
 
  * 0.3.0 - Jon Rohan [github/github@8478cb3](https://github.com/github/github/commit/8478cb3)
