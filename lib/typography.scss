@@ -30,10 +30,11 @@
 
 // Text styles
 .text-normal { font-weight: normal !important; }
-.text-bold { font-weight: bold !important;}
-.text-italic { font-style: italic !important;}
+.text-bold { font-weight: bold !important; }
+.text-italic { font-style: italic !important; }
 .no-underline { text-decoration: none !important; }
-.no-wrap { white-space: nowrap !important;}
+.no-wrap { white-space: nowrap !important; }
+
 .text-emphasized {
   font-weight: bold;
   color: $text-gray-dark;
