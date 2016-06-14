@@ -1,5 +1,7 @@
 # HEAD
 
+ * re-order type utilities - broccolini [github/github@8314eba](https://github.com/github/github/commit/8314eba)52
+ * correct h3 size - broccolini [github/github@a2581ae](https://github.com/github/github/commit/a2581ae)d
  * Removing some unnecessary lint plugins and using native - Jon Rohan [github/github@2ae0070](https://github.com/github/github/commit/2ae0070)
  * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
 
