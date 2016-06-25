@@ -45,6 +45,9 @@
 .width-full  { width: 100% !important; }
 .height-full { height: 100% !important; }
 
+// Remove min-width from element
+.min-width-0 { min-width: 0 !important; }
+
 // Visibility utilities
 .v-hidden { visibility: hidden !important; }
 .v-visible { visibility: visible !important; }
