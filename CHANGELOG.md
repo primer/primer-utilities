@@ -1,5 +1,7 @@
 # HEAD
 
+ * Moving the min-width to a utility - Jon Rohan [github/github@1560299](https://github.com/github/github/commit/1560299)
+ * New line-height variables - Mark Otto [github/github@b15b1ea](https://github.com/github/github/commit/b15b1ea)
  * re-order type utilities - broccolini [github/github@8314eba](https://github.com/github/github/commit/8314eba)52
  * correct h3 size - broccolini [github/github@a2581ae](https://github.com/github/github/commit/a2581ae)d
  * Removing some unnecessary lint plugins and using native - Jon Rohan [github/github@2ae0070](https://github.com/github/github/commit/2ae0070)
