@@ -1,4 +1,35 @@
 // stylelint-disable block-closing-brace-space-before, primer/selector-no-utility, selector-list-comma-newline-after
+// Heading utilities
+.h1, .h2, .h3, .h4, .h5, .h6 { font-weight: $font-weight-bold !important; }
+
+.h1 { font-size: $h1-size !important; }
+.h2 { font-size: $h2-size !important; }
+.h3 { font-size: $h3-size !important; }
+.h4 { font-size: $h4-size !important; }
+.h5 { font-size: $h5-size !important; }
+
+// Does not include color property like typography base
+// styles, color should be applied with color utilities.
+.h6 { font-size: $h6-size !important; }
+
+// Smallest text size
+.text-small { font-size: 12px !important; }
+
+// Large leading paragraphs
+.lead {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #555;
+}
+
+// Line-height variations
+// Close to commonly used line-heights. Most line-heights
+// combined with type size equate to whole pixels.
+// Will be improved with future typography scale updates.
+.lh-condensed-ultra { line-height: $lh-condensed-ultra !important; }
+.lh-condensed { line-height: $lh-condensed !important; }
+.lh-default { line-height: $lh-default !important; }
 
 // Text alignments
 .text-right { text-align: right !important; }
@@ -13,38 +44,7 @@
 .no-underline { text-decoration: none !important; }
 .no-wrap { white-space: nowrap !important;}
 
-.text-small { font-size: 12px !important; }
-
-// Large leading paragraphs
-.lead {
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-weight: 300;
-  color: #555;
-}
-
 .text-emphasized {
   font-weight: bold;
   color: $text-gray-dark;
 }
-
-// Heading utilities
-.h1, .h2, .h3, .h4, .h5, .h6 { font-weight: $font-weight-bold !important; }
-
-.h1 { font-size: $h1-size !important; }
-.h2 { font-size: $h2-size !important; }
-.h3 { font-size: $h3-size !important; }
-.h4 { font-size: $h4-size !important; }
-.h5 { font-size: $h5-size !important; }
-
-// Does not include color property like typography base
-// styles, color should be applied with color utilities.
-.h6 { font-size: $h6-size !important; }
-
-// Line-height variations
-// Close to commonly used line-heights. Most line-heights
-// combined with type size equate to whole pixels.
-// Will be improved with future typography scale updates.
-.lh-condensed-ultra { line-height: $lh-condensed-ultra !important; }
-.lh-condensed { line-height: $lh-condensed !important; }
-.lh-default { line-height: $lh-default !important; }
