@@ -1,5 +1,6 @@
-# HEAD
+# v0.4.0
 
+ * Publishing a new version - Jon Rohan [github/github@eed0e96](https://github.com/github/github/commit/eed0e96)
  * Moving the min-width to a utility - Jon Rohan [github/github@1560299](https://github.com/github/github/commit/1560299)
  * New line-height variables - Mark Otto [github/github@b15b1ea](https://github.com/github/github/commit/b15b1ea)
  * re-order type utilities - broccolini [github/github@8314eba](https://github.com/github/github/commit/8314eba)52
