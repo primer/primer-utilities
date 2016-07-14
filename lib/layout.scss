@@ -15,10 +15,11 @@
 .left-0   { left: 0 !important; }
 
 // Vertical alignment
-.vertical-middle, // deprecated: Use .v-align-middle instead
-.v-align-middle { vertical-align: middle !important; }
-.v-align-top    { vertical-align: top !important; }
-.v-align-bottom { vertical-align: bottom !important; }
+.v-align-middle      { vertical-align: middle !important; }
+.v-align-top         { vertical-align: top !important; }
+.v-align-bottom      { vertical-align: bottom !important; }
+.v-align-text-top    { vertical-align: text-top !important; }
+.v-align-text-bottom { vertical-align: text--bottom !important; }
 
 // Overflow utilities
 // overflow-hidden can also be used to create a new
@@ -33,10 +34,10 @@
 }
 
 // Floats
-.right, // legacy
+.right, // Deprecated: Use .float-right instead
 .float-right { float: right !important; }
 
-.left, // legacy
+.left, // Deprecated: Use .float-left instead
 .float-left { float: left !important; }
 
 // Width and height utilities, helpful in combination
@@ -59,5 +60,5 @@
 .d-block        { display: block !important; }
 .d-inline       { display: inline !important; }
 .d-inline-block { display: inline-block !important; }
-.hidden, // legacy
+.hidden, // Deprecated: Use .d-none instead
 .d-none         { display: none !important; }

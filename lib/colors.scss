@@ -13,25 +13,23 @@
 
 // text colors
 .text-blue          { color: $text-blue !important; }
-.danger,            // legacy
-.text-closed,       // legacy
-.text-danger,       // legacy
-.text-diff-deleted, // legacy
-.text-error,        // legacy
-.text-failure,      // legacy
-.text-reverted,     // legacy
+.danger,            // Deprecated: Use .text-red instead
+.text-closed,       // Deprecated: Use .text-red instead
+.text-danger,       // Deprecated: Use .text-red instead
+.text-diff-deleted, // Deprecated: Use .text-red instead
+.text-error,        // Deprecated: Use .text-red instead
+.text-failure,      // Deprecated: Use .text-red instead
 .text-red           { color: $text-red !important; }
 .text-gray-light    { color: $text-gray-light !important; }
-.text-muted,        // legacy
+.text-muted,        // Deprecated: Use .text-gray instead
 .text-gray          { color: $text-gray !important; }
-.mute,              // legacy
+.mute,              // Deprecated: Use .text-gray-dark instead
 .text-gray-dark     { color: $text-gray-dark !important; }
-.text-diff-added,   // legacy
-.text-success,      // legacy
-.text-open,         // legacy
+.text-diff-added,   // Deprecated: Use .text-green instead
+.text-success,      // Deprecated: Use .text-green instead
+.text-open,         // Deprecated: Use .text-green instead
 .text-green         { color: $text-green !important; }
 .text-orange        { color: $text-orange !important; }
-.text-merged,       // legacy
 .text-purple        { color: $text-purple !important; }
 .text-white         { color: $text-white !important; }
 .text-inherit       { color: inherit !important; }
