@@ -1,3 +1,11 @@
+# HEAD
+
+ * Adding docs for margin and padding - Jon Rohan [github/github@4ec0398](https://github.com/github/github/commit/4ec0398)
+ * ohhhh remove that my bad - Mark Otto [github/github@caa46b2](https://github.com/github/github/commit/caa46b2)
+ * Adjusting the regex and cleaning up unused classes - Jon Rohan [github/github@d3c1cce](https://github.com/github/github/commit/d3c1cce)
+ * Creating a depcreated classes test to watch for any deprecated class use - Jon Rohan [github/github@1e001c1](https://github.com/github/github/commit/1e001c1)
+ * utils - Mark Otto [github/github@23cec0a](https://github.com/github/github/commit/23cec0a)
+
 # v0.4.0
 
  * Publishing a new version - Jon Rohan [github/github@eed0e96](https://github.com/github/github/commit/eed0e96)
