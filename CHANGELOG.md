@@ -1,5 +1,7 @@
-# HEAD
+# v0.5.0
 
+ * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
+ * Make sure the modules build without error before publishing - Jon Rohan [github/github@57ac5e6](https://github.com/github/github/commit/57ac5e6)
  * Adding docs for margin and padding - Jon Rohan [github/github@4ec0398](https://github.com/github/github/commit/4ec0398)
  * ohhhh remove that my bad - Mark Otto [github/github@caa46b2](https://github.com/github/github/commit/caa46b2)
  * Adjusting the regex and cleaning up unused classes - Jon Rohan [github/github@d3c1cce](https://github.com/github/github/commit/d3c1cce)
