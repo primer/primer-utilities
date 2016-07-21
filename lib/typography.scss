@@ -1,4 +1,14 @@
-// stylelint-disable block-closing-brace-space-before, primer/selector-no-utility, selector-list-comma-newline-after
+// stylelint-disable block-closing-brace-space-before, primer/selector-no-utility, selector-list-comma-newline-after, declaration-block-semicolon-newline-after, declaration-block-single-line-max-declarations
+// Type scale variables found in primer-support/lib/variables.scss
+// $h00-size: 48px;
+// $h0-size: 40px;
+// $h1-size: 32px;
+// $h2-size: 24px;
+// $h3-size: 20px;
+// $h4-size: 16px;
+// $h5-size: 14px;
+// $h6-size: 12px;
+
 // Heading utilities
 .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: $font-weight-bold !important; }
 
@@ -12,14 +22,30 @@
 // styles, color should be applied with color utilities.
 .h6 { font-size: $h6-size !important; }
 
+// Type utilities that match type sale
+.f1 { font-size: $h1-size !important; }
+.f2 { font-size: $h2-size !important; }
+.f3 { font-size: $h3-size !important; }
+.f4 { font-size: $h4-size !important; }
+.f5 { font-size: $h5-size !important; }
+.f6 { font-size: $h6-size !important; }
+
+// Type utils with light weight that match type scale
+.f00-light { font-size: $h00-size !important; font-weight: $font-weight-light !important; }
+.f0-light { font-size: $h0-size !important; font-weight: $font-weight-light !important; }
+.f1-light { font-size: $h1-size !important; font-weight: $font-weight-light !important; }
+.f2-light { font-size: $h2-size !important; font-weight: $font-weight-light !important; }
+// Same size and weight as .lead but without color property
+.f3-light { font-size: $h3-size !important; font-weight: $font-weight-light !important; }
+
 // Smallest text size
-.text-small { font-size: 12px !important; }
+.text-small { font-size: $h6-size !important; } // 12px
 
 // Large leading paragraphs
 .lead {
   margin-bottom: 30px;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: $h3-size;
+  font-weight: $font-weight-light;
   color: #555;
 }
 
@@ -38,13 +64,13 @@
 
 // Text styles
 .text-normal { font-weight: normal !important; }
-.text-bold { font-weight: bold !important;}
+.text-bold { font-weight: $font-weight-bold !important;}
 .text-italic { font-style: italic !important;}
 .text-uppercase { text-transform: uppercase !important; }
 .no-underline { text-decoration: none !important; }
 .no-wrap { white-space: nowrap !important;}
 
 .text-emphasized {
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   color: $text-gray-dark;
 }
