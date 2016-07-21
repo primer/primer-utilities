@@ -1,3 +1,10 @@
+# HEAD
+
+ * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
+ * move over all bold variable changes - Mark Otto [github/github@6b5b021](https://github.com/github/github/commit/6b5b021)
+ * disable lints because easier to read through like this - broccolini [github/github@dbc50c3](https://github.com/github/github/commit/dbc50c3)
+ * change h0 h00 to f0 f00 to match light type utils - broccolini [github/github@bacbb65](https://github.com/github/github/commit/bacbb65)
+
 # v0.5.0
 
  * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
