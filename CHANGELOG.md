@@ -1,5 +1,7 @@
 # HEAD
 
+ * Updating link to real primer-css repository - Jon Rohan [github/github@bbaedda](https://github.com/github/github/commit/bbaedda)
+ * Fixing typo in vertical alignment utilities closes https://github.com/primer/utilities/pull/1 cc @fabianperez - Jon Rohan [github/github@78bb59c](https://github.com/github/github/commit/78bb59c)
  * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
  * move over all bold variable changes - Mark Otto [github/github@6b5b021](https://github.com/github/github/commit/6b5b021)
  * disable lints because easier to read through like this - broccolini [github/github@dbc50c3](https://github.com/github/github/commit/dbc50c3)
