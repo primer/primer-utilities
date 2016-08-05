@@ -1,5 +1,6 @@
 # HEAD
 
+ * add line space between rule - broccolini [github/github@b02308e](https://github.com/github/github/commit/b02308e)
  * Updating link to real primer-css repository - Jon Rohan [github/github@bbaedda](https://github.com/github/github/commit/bbaedda)
  * Fixing typo in vertical alignment utilities closes https://github.com/primer/utilities/pull/1 cc @fabianperez - Jon Rohan [github/github@78bb59c](https://github.com/github/github/commit/78bb59c)
  * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
