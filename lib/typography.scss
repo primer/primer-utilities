@@ -12,10 +12,33 @@
 // Heading utilities
 .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: $font-weight-bold !important; }
 
-.h1 { font-size: $h1-size !important; }
-.h2 { font-size: $h2-size !important; }
-.h3 { font-size: $h3-size !important; }
-.h4 { font-size: $h4-size !important; }
+.h1 {
+  font-size: 26px !important;
+
+  @include breakpoint(md) { font-size: $h1-size !important; }
+
+}
+
+.h2 {
+  font-size: 22px !important;
+
+  @include breakpoint(md) { font-size: $h2-size !important; }
+}
+
+.h3 {
+  font-size: 18px !important;
+
+  @include breakpoint(md) { font-size: $h3-size !important; }
+
+}
+
+.h4 {
+  font-size: 16px !important;
+
+  @include breakpoint(md) { font-size: $h4-size !important; }
+
+}
+
 .h5 { font-size: $h5-size !important; }
 
 // Does not include color property like typography base
@@ -23,20 +46,76 @@
 .h6 { font-size: $h6-size !important; }
 
 // Type utilities that match type sale
-.f1 { font-size: $h1-size !important; }
-.f2 { font-size: $h2-size !important; }
-.f3 { font-size: $h3-size !important; }
-.f4 { font-size: $h4-size !important; }
+.f1 {
+  font-size: 26px !important;
+
+  @include breakpoint(md) { font-size: $h1-size !important; }
+
+}
+
+.f2 {
+  font-size: 22px !important;
+
+  @include breakpoint(md) { font-size: $h2-size !important; }
+}
+
+.f3 {
+  font-size: 18px !important;
+
+  @include breakpoint(md) { font-size: $h3-size !important; }
+
+}
+
+.f4 {
+  font-size: 16px !important;
+
+  @include breakpoint(md) { font-size: $h4-size !important; }
+
+}
+
 .f5 { font-size: $h5-size !important; }
 .f6 { font-size: $h6-size !important; }
 
 // Type utils with light weight that match type scale
-.f00-light { font-size: $h00-size !important; font-weight: $font-weight-light !important; }
-.f0-light { font-size: $h0-size !important; font-weight: $font-weight-light !important; }
-.f1-light { font-size: $h1-size !important; font-weight: $font-weight-light !important; }
-.f2-light { font-size: $h2-size !important; font-weight: $font-weight-light !important; }
+.f00-light {
+  font-size: 40px !important;
+  font-weight: $font-weight-light !important;
+
+  @include breakpoint(md) { font-size: $h00-size !important; }
+
+}
+
+.f0-light {
+  font-size: 32px !important;
+  font-weight: $font-weight-light !important;
+
+  @include breakpoint(md) { font-size: $h0-size !important; }
+
+}
+
+.f1-light {
+  font-size: 26px !important;
+  font-weight: $font-weight-light !important;
+
+  @include breakpoint(md) { font-size: $h1-size !important; }
+
+}
+
+.f2-light {
+  font-size: 22px !important;
+  font-weight: $font-weight-light !important;
+
+  @include breakpoint(md) { font-size: $h2-size !important; }
+
+}
 // Same size and weight as .lead but without color property
-.f3-light { font-size: $h3-size !important; font-weight: $font-weight-light !important; }
+.f3-light {
+  font-size: 18px !important;
+  font-weight: $font-weight-light !important;
+
+  @include breakpoint(md) { font-size: $h3-size !important; }
+
+}
 
 // Smallest text size
 .text-small { font-size: $h6-size !important; } // 12px

@@ -40,6 +40,15 @@
 .left, // Deprecated: Use .float-left instead
 .float-left { float: left !important; }
 
+// Responsive float utlities
+// .float-md-left, .float-lg-right, ...
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    .float-#{$breakpoint}-left  { float: left !important; }
+    .float-#{$breakpoint}-right  { float: right !important; }
+  }
+}
+
 // Width and height utilities, helpful in combination
 // with display-table utilities and images
 .width-fit   { max-width: 100% !important; }
@@ -62,3 +71,40 @@
 .d-inline-block { display: inline-block !important; }
 .hidden, // Deprecated: Use .d-none instead
 .d-none         { display: none !important; }
+
+// Responsive display utlities
+// .d-sm-none, .d-lg-inline, ...
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    .d-#{$breakpoint}-block  { display: block !important; }
+    .d-#{$breakpoint}-inline  { display: inline !important; }
+    .d-#{$breakpoint}-inline-block  { display: inline-block !important; }
+    .d-#{$breakpoint}-none  { display: none !important; }
+  }
+}
+
+// Hide utilities for each breakpoint
+// Each hide utility only applies to one breakpoint range.
+@media (max-width: $width-sm) {
+  .hide-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: $width-sm) and (max-width: $width-md) {
+  .hide-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: $width-md) and (max-width: $width-lg) {
+  .hide-lg {
+    display: none !important;
+  }
+}
+
+@media (min-width: $width-lg) {
+  .hide-xl {
+    display: none !important;
+  }
+}
