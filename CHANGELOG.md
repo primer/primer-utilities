@@ -1,5 +1,7 @@
-# HEAD
+# v0.6.0
 
+ * Updating version - Jon Rohan [github/github@6bf5fe5](https://github.com/github/github/commit/6bf5fe5)
+ * card tweaks to get labels and assignees in there - Mark Otto [github/github@e341b50](https://github.com/github/github/commit/e341b50)
  * add line space between rule - broccolini [github/github@b02308e](https://github.com/github/github/commit/b02308e)
  * Updating link to real primer-css repository - Jon Rohan [github/github@bbaedda](https://github.com/github/github/commit/bbaedda)
  * Fixing typo in vertical alignment utilities closes https://github.com/primer/utilities/pull/1 cc @fabianperez - Jon Rohan [github/github@78bb59c](https://github.com/github/github/commit/78bb59c)
