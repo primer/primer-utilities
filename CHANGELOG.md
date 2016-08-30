@@ -1,3 +1,19 @@
+# HEAD
+
+ * Replacing .text-muted and .mute with .text-gray and .text-gray-dark - Jon Rohan [github/github@0ddd68d](https://github.com/github/github/commit/0ddd68d)
+ * Replacing .danger with .text-red - Jon Rohan [github/github@3f99b1f](https://github.com/github/github/commit/3f99b1f)
+ * Removing text-danger and using text-red - Jon Rohan [github/github@15627aa](https://github.com/github/github/commit/15627aa)
+ * Remove .hidden - Mu-An Chiou [github/github@8701f4b](https://github.com/github/github/commit/8701f4b)
+ * Removing text-success class and replacing with text-green - Jon Rohan [github/github@74529f7](https://github.com/github/github/commit/74529f7)
+ * Removing text-closed class and replacing with text-red - Jon Rohan [github/github@a3bceee](https://github.com/github/github/commit/a3bceee)
+ * Replacing m-auto with the newer class mx-auto - Jon Rohan [github/github@f2b3354](https://github.com/github/github/commit/f2b3354)
+ * Remove .text-open from the codebase, using .text-green instead - Jon Rohan [github/github@ec6cb2a](https://github.com/github/github/commit/ec6cb2a)
+ * Remove .text-diff-added from the codebase, using .text-green instead - Jon Rohan [github/github@aa0791d](https://github.com/github/github/commit/aa0791d)
+ * Remove .text-diff-deleted from the codebase, using .text-red instead - Jon Rohan [github/github@a5fecd0](https://github.com/github/github/commit/a5fecd0)
+ * Remove .text-failure from the codebase, using .text-red instead - Jon Rohan [github/github@6626959](https://github.com/github/github/commit/6626959)
+ * Remove .text-error from the codebase, using .text-red instead - Jon Rohan [github/github@dc31063](https://github.com/github/github/commit/dc31063)
+ * move animations into utilities module cc @jonrohan - broccolini [github/github@0c6d032](https://github.com/github/github/commit/0c6d032)
+
 # v0.6.0
 
  * Updating version - Jon Rohan [github/github@6bf5fe5](https://github.com/github/github/commit/6bf5fe5)
