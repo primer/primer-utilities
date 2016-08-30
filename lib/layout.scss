@@ -34,10 +34,7 @@
 }
 
 // Floats
-.right, // Deprecated: Use .float-right instead
 .float-right { float: right !important; }
-
-.left, // Deprecated: Use .float-left instead
 .float-left { float: left !important; }
 
 // Responsive float utlities
@@ -65,11 +62,11 @@
 // Display utilites
 .d-table      { display: table !important; }
 .d-table-cell { display: table-cell !important; }
+.table-fixed { table-layout: fixed !important; }
 
 .d-block        { display: block !important; }
 .d-inline       { display: inline !important; }
 .d-inline-block { display: inline-block !important; }
-.hidden, // Deprecated: Use .d-none instead
 .d-none         { display: none !important; }
 
 // Responsive display utlities
