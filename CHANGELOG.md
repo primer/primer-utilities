@@ -1,5 +1,6 @@
-# HEAD
+# v1.0.0
 
+ * Updating to major new version - Jon Rohan [github/github@f0df999](https://github.com/github/github/commit/f0df999)
  * Replacing .text-muted and .mute with .text-gray and .text-gray-dark - Jon Rohan [github/github@0ddd68d](https://github.com/github/github/commit/0ddd68d)
  * Replacing .danger with .text-red - Jon Rohan [github/github@3f99b1f](https://github.com/github/github/commit/3f99b1f)
  * Removing text-danger and using text-red - Jon Rohan [github/github@15627aa](https://github.com/github/github/commit/15627aa)
