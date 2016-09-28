@@ -1,5 +1,5 @@
 // Padding spacer utilities
-// stylelint-disable block-opening-brace-space-before, declaration-colon-space-before, primer/selector-no-utility
+// stylelint-disable block-opening-brace-space-before, declaration-colon-space-before
 @for $i from 1 through length($spacers) {
   $size: #{nth($spacers, $i)};
   $scale: #{$i - 1};

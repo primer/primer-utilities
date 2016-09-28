@@ -1,5 +1,5 @@
 // Color utilities
-// stylelint-disable block-opening-brace-space-before, block-closing-brace-newline-before, block-opening-brace-newline-after, selector-list-comma-newline-after, block-opening-brace-space-after, primer/selector-no-utility, rule-non-nested-empty-line-before
+// stylelint-disable block-opening-brace-space-before, primer/selector-no-utility
 
 // background colors
 .bg-white      { background-color: $bg-white !important; }
@@ -10,6 +10,7 @@
 .bg-gray-light { background-color: $bg-gray-light !important; }
 .bg-green      { background-color: $bg-green !important; }
 .bg-red        { background-color: $bg-red !important; }
+.bg-yellow     { background-color: #ffd36b !important; }
 
 // text colors
 .text-blue          { color: $text-blue !important; }
