@@ -1,5 +1,19 @@
 # HEAD
 
+ * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
+ * Using 0 instead of 0px - Jon Rohan [github/github@3c5bcf5](https://github.com/github/github/commit/3c5bcf5)
+ * new argument name, add comments in code - Caleb Winters [github/github@51251be](https://github.com/github/github/commit/51251be)
+ * fix whitelisting - Caleb Winters [github/github@26fba58](https://github.com/github/github/commit/26fba58)
+ * polishing the docs, adding better examples - Caleb Winters [github/github@a7c5fb6](https://github.com/github/github/commit/a7c5fb6)
+ * change tag to experimental, add link to MDN - Caleb Winters [github/github@a47e282](https://github.com/github/github/commit/a47e282)
+ * remove global flex property - Caleb Winters [github/github@16491b8](https://github.com/github/github/commit/16491b8)
+ * Kill unneeded attribute - Patrick Marsceill [github/github@6c071dc](https://github.com/github/github/commit/6c071dc)
+ * Make default box shadow a var and apply it to .box-shadow utility - Patrick Marsceill [github/github@bda03be](https://github.com/github/github/commit/bda03be)
+ * Update box shadow to be better - Patrick Marsceill [github/github@6cbd1f0](https://github.com/github/github/commit/6cbd1f0)
+ * list styles without admin.deps - Sophie Shepherd [github/github@450f684](https://github.com/github/github/commit/450f684)
+ * Revert "Add list-style: none; utility" - Sophie Shepherd [github/github@c6d72f2](https://github.com/github/github/commit/c6d72f2)
+ * Add list-style: none; utility - Sophie Shepherd [github/github@7a494d8](https://github.com/github/github/commit/7a494d8)
+ * Add bg-shade-gradient - Patrick Marsceill [github/github@c7efe79](https://github.com/github/github/commit/c7efe79)
  * Separating out modules into primer-core and primer-product - Jon Rohan [github/github@ddf698c](https://github.com/github/github/commit/ddf698c)
 
 # v1.0.0
