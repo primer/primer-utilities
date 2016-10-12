@@ -12,9 +12,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/utilities.git",
+  "repository": "https://github.com/primer/primer-utilities.git",
   "bugs": {
-    "url": "https://github.com/primer/utilities/issues"
+    "url": "https://github.com/primer/primer-utilities/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
