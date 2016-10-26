@@ -1,15 +1,25 @@
 // Color utilities
 // stylelint-disable block-opening-brace-space-before, primer/selector-no-utility
+// stylelint-disable comment-empty-line-before
 
 // background colors
+/* Set the background to $bg-white */
 .bg-white      { background-color: $bg-white !important; }
+/* Set the background to $bg-blue */
 .bg-blue       { background-color: $bg-blue !important; }
+/* Set the background to $bg-blue-light */
 .bg-blue-light { background-color: $bg-blue-light !important; }
+/* Set the background to $bg-gray-dark */
 .bg-gray-dark  { background-color: $bg-gray-dark !important; }
+/* Set the background to $bg-gray */
 .bg-gray       { background-color: $bg-gray !important; }
+/* Set the background to $bg-gray-light */
 .bg-gray-light { background-color: $bg-gray-light !important; }
+/* Set the background to $bg-green */
 .bg-green      { background-color: $bg-green !important; }
+/* Set the background to $bg-red */
 .bg-red        { background-color: $bg-red !important; }
+/* Set the background to yellow */
 .bg-yellow     { background-color: #ffd36b !important; }
 
 .bg-shade-gradient {
@@ -19,29 +29,40 @@
 }
 
 // text colors
+/* Set the text color to $text-blue */
 .text-blue          { color: $text-blue !important; }
+/* Set the text color to $text-red */
 .text-red           { color: $text-red !important; }
+/* Set the text color to $text-gray-light */
 .text-gray-light    { color: $text-gray-light !important; }
+/* Set the text color to $text-gray */
 .text-gray          { color: $text-gray !important; }
+/* Set the text color to $text-gray-dark */
 .text-gray-dark     { color: $text-gray-dark !important; }
+/* Set the text color to $text-green */
 .text-green         { color: $text-green !important; }
+/* Set the text color to $text-orange */
 .text-orange        { color: $text-orange !important; }
+/* Set the text color to $text-purple */
 .text-purple        { color: $text-purple !important; }
+/* Set the text color to $text-white */
 .text-white         { color: $text-white !important; }
+/* Set the text color to inherit */
 .text-inherit       { color: inherit !important; }
 
 // link colors
+/* Set the link color to $text-blue */
 .link-blue      { color: $text-blue !important; }
+/* Set the link color to $text-gray-dark */
 .link-gray-dark { color: $text-gray-dark !important; }
+/* Set the link color to $text-gray */
 .link-gray      { color: $text-gray !important; }
 
 // Text states
 .text-renamed { color: $status-renamed !important; }
 .text-pending { color: $status-pending !important; }
 
-// Muted link
-//
-// Have a link you need to be gray to start, and blue on hover? Use this.
+/* Make a link $text-gray, then $text-blue on hover */
 .muted-link {
   color: $text-gray !important;
 
