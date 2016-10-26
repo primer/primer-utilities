@@ -1,5 +1,10 @@
 # HEAD
 
+ * Updating layout hints - Jon Rohan [github/github@d6cc7dc](https://github.com/github/github/commit/d6cc7dc)
+ * mentioning link instead of text - Jon Rohan [github/github@008fd98](https://github.com/github/github/commit/008fd98)
+ * Updating the color hints to mention the variables - Jon Rohan [github/github@32a5752](https://github.com/github/github/commit/32a5752)
+ * Replace instances that can be replaced. Delete shadows when on white bgs. - Sophie Shepherd [github/github@e33bf62](https://github.com/github/github/commit/e33bf62)
+ * Add utility classes to typography scss - Sophie Shepherd [github/github@0116477](https://github.com/github/github/commit/0116477)
  * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
  * Using 0 instead of 0px - Jon Rohan [github/github@3c5bcf5](https://github.com/github/github/commit/3c5bcf5)
  * new argument name, add comments in code - Caleb Winters [github/github@51251be](https://github.com/github/github/commit/51251be)
