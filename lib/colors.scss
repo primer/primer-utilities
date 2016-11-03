@@ -71,3 +71,12 @@
     text-decoration: none;
   }
 }
+
+// Shade gradient
+//
+// Shade gradient style from Basecoat
+.shade-gradient {
+  background-image: linear-gradient(180deg, #f5f5f5, #fff);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
