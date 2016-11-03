@@ -1,5 +1,6 @@
-# HEAD
+# v2.0.0
 
+ * Cutting new versions of primer modules - Jon Rohan [github/github@157f5ab](https://github.com/github/github/commit/157f5ab)
  * Updating layout hints - Jon Rohan [github/github@d6cc7dc](https://github.com/github/github/commit/d6cc7dc)
  * mentioning link instead of text - Jon Rohan [github/github@008fd98](https://github.com/github/github/commit/008fd98)
  * Updating the color hints to mention the variables - Jon Rohan [github/github@32a5752](https://github.com/github/github/commit/32a5752)
