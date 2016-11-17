@@ -148,6 +148,21 @@
   }
 }
 
+// direction utilities
+
+.direction-rtl { direction: rtl !important; }
+
+.direction-ltr { direction: ltr !important; }
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include breakpoint($breakpoint) {
+    /* Set the direction to ltr at the #{$breakpoint} breakpoint */
+    .direction-#{$breakpoint}-rtl { direction: rtl !important; }
+    /* Set the direction to ltr at the #{$breakpoint} breakpoint */
+    .direction-#{$breakpoint}-ltr { direction: ltr !important; }
+  }
+}
+
 // Flex utility classes
 // - - - - - - - - - - - - - - - - - - - - - - -
 // This is a template for generating the flex utility classes.

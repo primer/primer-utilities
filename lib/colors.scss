@@ -50,19 +50,38 @@
 /* Set the text color to inherit */
 .text-inherit       { color: inherit !important; }
 
-// link colors
-/* Set the link color to $text-blue */
-.link-blue      { color: $text-blue !important; }
-/* Set the link color to $text-gray-dark */
-.link-gray-dark { color: $text-gray-dark !important; }
-/* Set the link color to $text-gray */
-.link-gray      { color: $text-gray !important; }
-
 // Text states
 .text-renamed { color: $status-renamed !important; }
 .text-pending { color: $status-pending !important; }
 
-/* Make a link $text-gray, then $text-blue on hover */
+// Link colors
+// Sets the links color to $text-gray and $text-blue on hover
+.link-gray {
+  color: $text-gray !important;
+
+  &:hover {
+    color: $text-blue !important;
+  }
+}
+
+// Sets the links color to $text-gray-dark and $text-blue on hover
+.link-gray-dark {
+  color: $text-gray-dark !important;
+
+  &:hover {
+    color: $text-blue !important;
+  }
+}
+
+/* Set the link color to $text-blue on hover
+  Useful when you want only part of a link to turn blue on hover */
+.link-hover-blue {
+  &:hover {
+    color: $text-blue !important;
+  }
+}
+
+/* Make a link $text-gray, then $text-blue on hover and removes the underline */
 .muted-link {
   color: $text-gray !important;
 
