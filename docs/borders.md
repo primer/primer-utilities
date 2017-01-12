@@ -6,9 +6,7 @@ status_issue: https://github.com/github/design-systems/issues/72
 
 Utilities for borders, border radius, and box shadows.
 
-- [Border width, style, and color utilities](#border-width-style-and-color-utilities)
-- [Rounded corners](#rounded-corners)
-- [Box shadows](#box-shadows)
+{:toc}
 
 ## Border width, style, and color utilities
 
@@ -86,18 +84,5 @@ Add or remove rounded corners: `rounded-0` removes rounded corners, `rounded-1` 
 </div>
 <div class="border rounded-2">
   .rounded-2
-</div>
-```
-
-## Box shadows
-
-Apply a box-shadow with `box-shadow` or a larger box-shadow `box-shadow-large`.
-
-```html
-<div class="Box box-shadow mb-4">
-  .box-shadow
-</div>
-<div class="box-shadow-large">
-  .box-shadow-large
 </div>
 ```

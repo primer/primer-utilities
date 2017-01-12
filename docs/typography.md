@@ -77,7 +77,6 @@ Change the line height density with these utilities.
 <p class="lh-condensed-ultra">
   Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail. Jowl chuck biltong flank meatball, beef short ribs. Jowl tenderloin ground round, short loin tri-tip ribeye picanha filet mignon pig chicken kielbasa t-bone fatback. Beef ribs meatball chicken corned beef salami.
 </p>
-
 ```
 
 ## Typographic styles
@@ -89,6 +88,7 @@ Change the font weight, styles, and alignment with these utilities.
 <p class="text-bold">Bold</p>
 <p class="text-uppercase">Uppercase</p>
 <p class="no-wrap">No wrap</p>
+<p class="wb-break-all">Line break long lines</p>
 <p class="no-underline">No underline</p>
 <p class="text-left">Left align</p>
 <p class="text-center">Center</p>

@@ -182,13 +182,15 @@
 /* Set the font weight to bold */
 .text-bold { font-weight: $font-weight-bold !important;}
 /* Set the font to italic */
-.text-italic { font-style: italic !important;}
+.text-italic { font-style: italic !important; }
 /* Make text uppercase */
 .text-uppercase { text-transform: uppercase !important; }
 /* Underline text */
 .no-underline { text-decoration: none !important; }
 /* Don't wrap white space */
-.no-wrap { white-space: nowrap !important;}
+.no-wrap { white-space: nowrap !important; }
+/* Allow long lines with no spaces to line break */
+.wb-break-all { word-break: break-all !important; }
 
 .text-emphasized {
   font-weight: $font-weight-bold;

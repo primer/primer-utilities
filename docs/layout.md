@@ -12,18 +12,18 @@ Change the document layout with display, float, alignment, and other utilities.
 Adjust the display of an element with `.d-block`, `.d-none`, `.d-inline`, `.d-inline-block`, `.d-table`, `.d-table-cell` utilities.
 
 ```html
-<div class="d-inline">
+<div class="d-inline border">
   .d-inline
-  <div class="d-inline-block">
+  <div class="d-inline-block border">
     .d-inline-block
   </div>
-  <a href="#" class="d-block">.d-block</a>
-  <div class="d-table">
-    <div class="d-table-cell">
+  <span class="d-block border">.d-block</span>
+  <div class="d-table border">
+    <div class="d-table-cell border">
       .d-table-cell
     </div>
   </div>
-  <div class="d-table-cell">
+  <div class="d-table-cell border">
     .d-table-cell
   </div>
   <div class="d-none">
@@ -71,7 +71,7 @@ Hide utilities are able to be applied or changed per breakpoint using the follow
 ```html
 <div>
   <h3>Potato update</h3>
-  <span class="hide-sm hide-md">Opened by <a href="" title="broccolini">broccolini</a></span>
+  <span class="hide-sm hide-md">Opened by <a href="#url">broccolini</a></span>
   <span class="d-md-none">Updated</span> 3 hours ago
 </div>
 ```
@@ -143,7 +143,7 @@ Use `.width-fit` to set max-width 100%.
 
 ```html
 <div class="one-fourth column">
-  <img class="width-fit bg-gray" src="/images/gravatars/gravatar-user-420.png" />
+  <img class="width-fit bg-gray" src="/images/gravatars/gravatar-user-420.png" alt="width fitted octocat" />
 </div>
 ```
 
@@ -152,7 +152,7 @@ Use `.width-full` to set width to 100%.
 ```html
 <div class="d-table width-full">
   <div class="d-table-cell">
-    <input class="form-control width-full" type="text" value="Full width form field">
+    <input class="form-control width-full" type="text" value="Full width form field" aria-label="Sample full width form field">
   </div>
 </div>
 ```
@@ -161,9 +161,9 @@ Use `.height-full` to set height to 100%.
 
 ```html
 <div class="d-table border border-gray">
-  <a href="#" class="d-table-cell height-full muted-link v-align-middle pl-3">
+  <div class="d-table-cell height-full v-align-middle pl-3">
     <%= octicon "three-bars" %>
-  </a>
+  </div>
   <div class="p-3">
     Bacon ipsum dolor amet meatball flank beef tail pig boudin ham hock chicken capicola. Shoulder ham spare ribs turducken pork tongue. Bresaola corned beef sausage jowl ribeye kielbasa tenderloin andouille leberkas tongue. Ribeye tri-tip tenderloin pig, chuck ground round chicken tongue corned beef biltong.
   </div>
@@ -195,10 +195,10 @@ Use `.position-absolute` to take elements out of the normal document flow.
 
 ```html
 <div class="position-relative" style="height:116px;">
-  <button class="btn btn-secondary mb-1">Button</button>
+  <button type="button" class="btn btn-secondary mb-1">Button</button>
   <div class="position-absolute border border-gray p-2">
-    <a href="#" class="d-block p-1">Mashed potatoes</a>
-    <a href="#" class="d-block p-1">Fries</a>
+    <a href="#url" class="d-block p-1">Mashed potatoes</a>
+    <a href="#url" class="d-block p-1">Fries</a>
   </div>
 </div>
 ```
