@@ -1,3 +1,7 @@
+# HEAD
+
+ * flexbug copy tweak - broccolini [github/github@6a4a4d2](https://github.com/github/github/commit/6a4a4d2)
+
 # v3.3.0
 
  * Docs update - Patrick Marsceill [github/github@3acfa8e](https://github.com/github/github/commit/3acfa8e)
