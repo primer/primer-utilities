@@ -59,6 +59,12 @@
   .flex#{$breakstring}-self-center      { align-self: center !important; }
   .flex#{$breakstring}-self-baseline    { align-self: baseline !important; }
   .flex#{$breakstring}-self-stretch     { align-self: stretch !important; }
+
+  // Shorthand for equal width and height cols
+  .flex#{$breakstring}-item-equal {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
 }
 
 // Generate basic flexbox classes

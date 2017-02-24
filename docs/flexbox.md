@@ -117,15 +117,15 @@ You can choose whether flex items are forced into a single line or wrapped onto 
 
 ```html
 <div class="border d-flex flex-wrap">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
+  <div class="p-5 px-6 border bg-gray-light">1</div>
+  <div class="p-5 px-6 border bg-gray-light">2</div>
+  <div class="p-5 px-6 border bg-gray-light">3</div>
+  <div class="p-5 px-6 border bg-gray-light">4</div>
+  <div class="p-5 px-6 border bg-gray-light">5</div>
+  <div class="p-5 px-6 border bg-gray-light">6</div>
+  <div class="p-5 px-6 border bg-gray-light">7</div>
+  <div class="p-5 px-6 border bg-gray-light">8</div>
+  <div class="p-5 px-6 border bg-gray-light">9</div>
 </div>
 ```
 
@@ -133,15 +133,15 @@ You can choose whether flex items are forced into a single line or wrapped onto 
 
 ```html
 <div class="border d-flex flex-nowrap">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
+  <div class="p-5 px-6 border bg-gray-light">1</div>
+  <div class="p-5 px-6 border bg-gray-light">2</div>
+  <div class="p-5 px-6 border bg-gray-light">3</div>
+  <div class="p-5 px-6 border bg-gray-light">4</div>
+  <div class="p-5 px-6 border bg-gray-light">5</div>
+  <div class="p-5 px-6 border bg-gray-light">6</div>
+  <div class="p-5 px-6 border bg-gray-light">7</div>
+  <div class="p-5 px-6 border bg-gray-light">8</div>
+  <div class="p-5 px-6 border bg-gray-light">9</div>
 </div>
 ```
 

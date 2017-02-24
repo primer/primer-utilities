@@ -241,6 +241,23 @@ _Note: fixed positioning has been disabled here for demonstration only._
   .position-fixed .left-0 .right-0
 </div>
 ```
+
+### Screen reader only
+
+Use `.sr-only` to position an element outside of the viewport for screen reader access only. **Even though the element can't be seen, make sure it still has a sensible tab order.**
+
+```html
+<div class="js-details-container Details">
+  <button type="button" class="btn">Tab once from this button, and press enter</button>
+  <button type="button" class="sr-only js-details-target">
+    Screen reader only button
+  </button>
+  <div class="Details-content--hidden">
+    Button activated!
+  </div>
+</div>
+```
+
 ## The media object
 
 Create a media object with utilities.
