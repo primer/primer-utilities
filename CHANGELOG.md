@@ -1,3 +1,15 @@
+# v3.5.0
+
+ * package version bump and update changelog for styleguide - Mark Otto [github/github@84ffd6d](https://github.com/github/github/commit/84ffd6d)
+ * update comment for @pmarsceill - Mark Otto [github/github@b446760](https://github.com/github/github/commit/b446760)
+ * colors, buttons, and more - Mark Otto [github/github@307d8ce](https://github.com/github/github/commit/307d8ce)
+ * Bump version and update CHANGELOG - Mu-An Chiou [github/github@b4de751](https://github.com/github/github/commit/b4de751)
+ * Add focus guide button - Mu-An Chiou [github/github@2101e25](https://github.com/github/github/commit/2101e25)
+ * Add title and change button activation copy - Mu-An Chiou [github/github@35af0e4](https://github.com/github/github/commit/35af0e4)
+ * initial docs - Caleb Winters [github/github@7a576e5](https://github.com/github/github/commit/7a576e5)
+ * Add .sr-only doc - Mu-An Chiou [github/github@2068b05](https://github.com/github/github/commit/2068b05)
+ * Move .sr-only to  to cored utility and add sr-only logout button - Mu-An Chiou [github/github@0c1a73f](https://github.com/github/github/commit/0c1a73f)
+
 # v3.3.1
 
  * bumping the version - Jon Rohan [github/github@4a72b25](https://github.com/github/github/commit/4a72b25)
