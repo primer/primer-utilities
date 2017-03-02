@@ -62,15 +62,17 @@ Use these classes to define the orientation of the main axis (`row` or `column`)
 #### CSS
 
 ```css
-.flex-row      { flex-direction: row; }
-.flex-column   { flex-direction: column; }
+.flex-row         { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-column      { flex-direction: column; }
 ```
 
 #### Classes
 
 | Class | Description |
 | --- | --- |
-| `.flex-row` | The main axis runs right to left (default). |
+| `.flex-row` | The main axis runs left to right (default). |
+| `.flex-row-reverse` | The main axis runs right to left. |
 | `.flex-column` | The main axis runs top to bottom. |
 
 #### Example using `.flex-column`
@@ -89,6 +91,18 @@ This example uses the responsive variant `.flex-md-row` to override `.flex-colum
 
 ```html
 <div class="border d-flex flex-column flex-md-row">
+  <div class="p-5 border bg-gray-light">Item 1</div>
+  <div class="p-5 border bg-gray-light">Item 2</div>
+  <div class="p-5 border bg-gray-light">Item 3</div>
+</div>
+```
+
+#### Example using `.flex-row-reverse`
+
+This example uses the responsive variant `.flex-md-row-reverse` to override `.flex-column` Learn more about responsive flexbox utilities **[here](#responsive-flex-utilities)**.
+
+```html
+<div class="border d-flex flex-column flex-md-row-reverse">
   <div class="p-5 border bg-gray-light">Item 1</div>
   <div class="p-5 border bg-gray-light">Item 2</div>
   <div class="p-5 border bg-gray-light">Item 3</div>
@@ -564,8 +578,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 All flexbox utilities can be adjust per [breakpoint](/styleguide/css/modules/grid#breakpoints) using the following formulas:
 
-- `d-[breakpoint]-[property]`
-- `flex-[breakpoint]-[property]-[behavior]`
+- `d-[breakpoint]-[property]` for `display`
+- `flex-[breakpoint]-[property]-[behavior]` for various flex properties
+- `flex-[breakpoint]-item-equal` for equal width and equal height flex items
 
 Each responsive style is applied to the specified breakpoint and up.
 
@@ -584,17 +599,29 @@ Each responsive style is applied to the specified breakpoint and up.
 .flex-lg-nowrap {}
 
 .flex-lg-self-start {}
+
+.flex-md-item-equal {}
 ```
 
-
-
 #### Example usage
+
+Mixing flex properties:
 
 ```html
 <div style="min-height: 150px;" class="border d-flex flex-items-start flex-md-items-center flex-justify-start flex-lg-justify-between">
   <div class="p-5 border bg-gray-light flex-md-self-stretch">.flex-self-stretch</div>
   <div class="p-5 border bg-gray-light">&nbsp;</div>
   <div class="p-5 border bg-gray-light">&nbsp;</div>
+</div>
+```
+
+Using the equal width, equal height utilities:
+
+```html
+<div class="border d-flex">
+  <div class="flex-md-item-equal p-3 border bg-gray-light">Stuff and things</div>
+  <div class="flex-md-item-equal p-3 border bg-gray-light">More stuff<br> on multiple lines</div>
+  <div class="flex-md-item-equal p-3 border bg-gray-light">Hi mom</div>
 </div>
 ```
 

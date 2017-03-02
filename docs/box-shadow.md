@@ -84,6 +84,18 @@ These shadows are used for marketing content, UI screenshots, and content that a
 </div>
 ```
 
+## Extra Large
+
+Extra large box shadows are even more diffused.
+
+```html
+<div class="box-shadow-extra-large p-3">
+  .box-shadow-extra-large
+</div>
+```
+
+These shadows are used for marketing content and content that appears on top of other page elements.
+
 ## Remove a box shadow
 
 Additionally there is a `box-shadow-none` class that removes `box-shadow`:
