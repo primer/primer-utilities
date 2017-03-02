@@ -1,3 +1,12 @@
+# v3.7.0
+
+ * update primer-core version number - broccolini [github/github@6846743](https://github.com/github/github/commit/6846743)
+ * use one yellow for now for status-pending: - broccolini [github/github@9f3bd48](https://github.com/github/github/commit/9f3bd48)
+ * bump version number on color utilities - broccolini [github/github@a52c6c2](https://github.com/github/github/commit/a52c6c2)
+ * separate bg and text pending color - broccolini [github/github@2c285b7](https://github.com/github/github/commit/2c285b7)
+ * update shade-gradient to use variable - broccolini [github/github@c63acfd](https://github.com/github/github/commit/c63acfd)
+ * move this before responsive variants so we can override it by breakpoint - Mark Otto [github/github@e38f773](https://github.com/github/github/commit/e38f773)
+
 # v3.5.0
 
  * package version bump and update changelog for styleguide - Mark Otto [github/github@84ffd6d](https://github.com/github/github/commit/84ffd6d)
