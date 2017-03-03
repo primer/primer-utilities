@@ -1,3 +1,10 @@
+# v3.7.1
+
+ * @broccolini's feedback - Sophie Shepherd [github/github@f9699ef](https://github.com/github/github/commit/f9699ef)
+ * mdo's notes - Sophie Shepherd [github/github@bf6304c](https://github.com/github/github/commit/bf6304c)
+ * bump version numbers - broccolini [github/github@34165ea](https://github.com/github/github/commit/34165ea)
+ * decouple bg & text status pending colors and improve text contrast - broccolini [github/github@c541dca](https://github.com/github/github/commit/c541dca)
+
 # v3.7.0
 
  * update primer-core version number - broccolini [github/github@6846743](https://github.com/github/github/commit/6846743)
