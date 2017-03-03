@@ -1,3 +1,14 @@
+# v4.0.0
+
+ * bump major version due to renaming in support and utils - broccolini [github/github@85b48ab](https://github.com/github/github/commit/85b48ab)
+ * update and re-order docs - broccolini [github/github@17fd96f](https://github.com/github/github/commit/17fd96f)
+ * add black alpha transparent border utility - broccolini [github/github@56d224a](https://github.com/github/github/commit/56d224a)
+ * update border names in docs - broccolini [github/github@dc33e97](https://github.com/github/github/commit/dc33e97)
+ * rename border utilities to match variables - broccolini [github/github@d0fdfb3](https://github.com/github/github/commit/d0fdfb3)
+ * Bump version number and update changelog - Mu-An Chiou [github/github@050549f](https://github.com/github/github/commit/050549f)
+ * Remove negative margin it's causing scrollbar problem and we don't actually need it - Mu-An Chiou [github/github@d813007](https://github.com/github/github/commit/d813007)
+ * fix border blue colors - broccolini [github/github@957c87a](https://github.com/github/github/commit/957c87a)
+
 # v3.7.1
 
  * @broccolini's feedback - Sophie Shepherd [github/github@f9699ef](https://github.com/github/github/commit/f9699ef)
