@@ -111,9 +111,18 @@ Background colors are most commonly used for filling large blocks of content or 
 ### Purple
 
 <div class="container-lg clearfix mb-4">
-  <div class="h4">.bg-purple</div>
-  <code>#6e5494, $bg-purple</code>
-  <div class="mt-2 bg-purple" style="height: 60px;"></div>
+  <div class="col-3 float-left pr-4">
+    <div class="h4">.bg-purple</div>
+    <code>#6e5494, $bg-purple</code>
+    <div class="mt-2 bg-purple" style="height: 60px;"></div>
+  </div>
+  <div class="col-9 float-left">
+    <div class="container-lg clearfix">
+      <div class="h4">.bg-purple-light</div>
+      <code>#f5f0ff, $bg-purple-light</code>
+      <div class="mt-2 bg-purple-light" style="height: 60px;"></div>
+    </div>
+  </div>
 </div>
 
 ## Text colors
@@ -139,6 +148,10 @@ These are our most common text with background color combinations. They don't al
 </div>
 <div class="text-orange mb-2">
   .text-orange on white
+</div>
+<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
+<div class="text-orange-light mb-2">
+  .text-orange-light on white
 </div>
 <span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
 <div class="text-green mb-2 ml-4">
