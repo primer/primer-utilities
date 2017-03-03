@@ -8,7 +8,7 @@ Utilities for borders, border radius, and box shadows.
 
 {:toc}
 
-## Border width, style, and color utilities
+## Border width and style
 
 The base border utility applies a solid, 1px border, with a default gray color.
 
@@ -40,20 +40,30 @@ Borders can be applied to a specific edge or to the Y axis.
 </div>
 ```
 
+Remove borders from all sides or a single side with `.border-0`, `.border-top-0`, `.border-right-0`, `.border-bottom-0`, `.border-left-0`.
+
+```html
+<div class="Box border-top-0">
+  .border-top-0
+</div>
+```
+
+## Border colors
+
 Override default border colors with blue, red, and gray border color utilities.
 
 ```html
 <div class="border border-blue mb-2">
   .border-blue
 </div>
-<div class="border border-blue-dark mb-2">
-  .border-blue-dark
+<div class="border border-blue-light mb-2">
+  .border-blue-light
 </div>
 <div class="border border-red mb-2">
   .border-red
 </div>
-<div class="border border-red-dark mb-2">
-  .border-red-dark
+<div class="border border-red-light mb-2">
+  .border-red-light
 </div>
 <div class="border border-gray-light mb-2">
   .border-gray-light
@@ -63,11 +73,15 @@ Override default border colors with blue, red, and gray border color utilities.
 </div>
 ```
 
-Remove borders from all sides or a single side with `.border-0`, `.border-top-0`, `.border-right-0`, `.border-bottom-0`, `.border-left-0`.
+### Borders with alpha transparency
+Use `border-black-fade` to add an rgba black border with an alpha transparency of `0.15`. This is useful when you want a border that tints the background color. The shade of black we use matches the hue of the GitHub dark header and our gray color palette: `rgba(27,31,35, 0.15)`.
 
 ```html
-<div class="Box border-top-0">
-  .border-top-0
+<div class="border border-black-fade bg-blue-light p-2 mb-2">
+  .border-black-fade .bg-blue-light
+</div>
+<div class="border border-black-fade bg-red-light p-2 mb-2">
+  .border-black-fade .bg-red-light
 </div>
 ```
 
