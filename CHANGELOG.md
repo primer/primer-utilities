@@ -1,3 +1,7 @@
+# v4.0.1
+
+ * add border utility - broccolini [github/github@026d0dc](https://github.com/github/github/commit/026d0dc)
+
 # v4.0.0
 
  * bump major version due to renaming in support and utils - broccolini [github/github@85b48ab](https://github.com/github/github/commit/85b48ab)
