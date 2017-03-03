@@ -65,6 +65,9 @@ Override default border colors with blue, red, and gray border color utilities.
 <div class="border border-red-light mb-2">
   .border-red-light
 </div>
+<div class="border border-yellow mb-2">
+  .border-yellow
+</div>
 <div class="border border-gray-light mb-2">
   .border-gray-light
 </div>
