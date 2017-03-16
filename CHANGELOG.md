@@ -1,3 +1,10 @@
+# v4.0.3
+
+ * make  work as expected - Sophie Shepherd [github/github@6c85845](https://github.com/github/github/commit/6c85845)
+ * primer version & CHANGELOG - Sophie Shepherd [github/github@9011d3b](https://github.com/github/github/commit/9011d3b)
+ * clean up usage of shade-gradient - Sophie Shepherd [github/github@4097cbd](https://github.com/github/github/commit/4097cbd)
+ * Add border utility and update primer - Mu-An Chiou [github/github@6870d3f](https://github.com/github/github/commit/6870d3f)
+
 # v4.0.1
 
  * add border utility - broccolini [github/github@026d0dc](https://github.com/github/github/commit/026d0dc)
