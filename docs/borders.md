@@ -50,7 +50,7 @@ Remove borders from all sides or a single side with `.border-0`, `.border-top-0`
 
 ## Border colors
 
-Override default border colors with blue, red, and gray border color utilities.
+Override default border colors with blue, green, red, and gray border color utilities.
 
 ```html
 <div class="border border-blue mb-2">
@@ -58,6 +58,12 @@ Override default border colors with blue, red, and gray border color utilities.
 </div>
 <div class="border border-blue-light mb-2">
   .border-blue-light
+</div>
+<div class="border border-green mb-2">
+  .border-green
+</div>
+<div class="border border-green-light mb-2">
+  .border-green-light
 </div>
 <div class="border border-red mb-2">
   .border-red

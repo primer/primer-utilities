@@ -1,6 +1,6 @@
 ---
 title: Animations
-layout: toggle
+example_layout: toggle
 status: New release
 status_issue: https://github.com/github/design-systems/issues/105
 ---
