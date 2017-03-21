@@ -102,14 +102,26 @@ Reset margins built into typography elements or other components with `m-0`, `mt
 <p class="mb-0 block-blue">No bottom margin on this paragraph.</p>
 ```
 
-## Responsive margin
+## Responsive margins
 
-All margin utilities, except `mx-auto`, can be adjusted per [breakpoint](/styleguide/css/modules/grid#breakpoints) using the following formula: `m-[direction]-[breakpoint]-[spacer]`. Each responsive style is applied to the specified breakpoint and up.
+All margin utilities, except `mx-auto`, can be adjusted per [breakpoint](/styleguide/css/modules/grid#breakpoints) using the following formula: `m[direction]-[breakpoint]-[spacer]`. Each responsive style is applied to the specified breakpoint and up.
 
 ```html
 <div class="d-inline-block margin-orange">
   <div class="mx-sm-2 mx-lg-4 d-inline-block block-blue">
     .mx-sm-2 .mx-lg-4
+  </div>
+</div>
+```
+
+## Negative margins
+
+You can add negative margins to the top, right, bottom, or left of an item by adding a negative margin utility. The formula for this is: `m[direction]-n[spacer]`. This also works responsively, with the following formula: `m[direction]-[breakpoint]-n[spacer]`.
+
+```html
+<div class="d-inline-block margin-orange p-3">
+  <div class="d-inline-block block-blue mt-n4 mr-lg-n4">
+    .mt-n4 .mr-lg-n6
   </div>
 </div>
 ```
