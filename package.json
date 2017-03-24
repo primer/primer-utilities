@@ -10,6 +10,7 @@
   "files": [
     "index.scss",
     "lib",
+    "docs",
     "build"
   ],
   "repository": "https://github.com/primer/primer-utilities.git",
