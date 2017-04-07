@@ -1,7 +1,6 @@
 ---
 title: Layout
-status: New release
-status_issue: https://github.com/github/design-systems/issues/104
+status: Stable
 ---
 
 Change the document layout with display, float, alignment, and other utilities.

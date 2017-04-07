@@ -1,7 +1,6 @@
 ---
 title: Padding
-status: In review
-status_issue: https://github.com/github/design-systems/issues/73
+status: Stable
 ---
 
 Padding utilities are based on a global [spacing scale](/styleguide/css/support/variables#spacers) which helps keep horizontal and vertical spacing consistent. These utilities help us reduce the amount of custom CSS that could share the same properties, and allows to achieve many different page layouts using the same styles.

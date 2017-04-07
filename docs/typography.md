@@ -1,7 +1,6 @@
 ---
 title: Typography
-status: New release
-status_issue: https://github.com/github/design-systems/issues/103
+status: Stable
 ---
 
 Type utilities are designed to work in combination with line-height utilities so as to result in more sensible numbers wherever possible. These also exist as [variables](/styleguide/css/support/variables) that you can use in components or custom CSS.
