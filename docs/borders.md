@@ -8,9 +8,9 @@ Utilities for borders, border radius, and box shadows.
 
 {:toc}
 
-## Border width and style
+## Default border
 
-The base border utility applies a solid, 1px border, with a default gray color.
+The default border utility applies a solid, 1px border, with a default gray color.
 
 ```html
 <div class="border">
@@ -71,6 +71,9 @@ Override default border colors with blue, green, red, and gray border color util
 <div class="border border-red-light mb-2">
   .border-red-light
 </div>
+<div class="border border-purple mb-2">
+  .border-purple
+</div>
 <div class="border border-yellow mb-2">
   .border-yellow
 </div>
@@ -91,6 +94,16 @@ Use `border-black-fade` to add an rgba black border with an alpha transparency o
 </div>
 <div class="border border-black-fade bg-red-light p-2 mb-2">
   .border-black-fade .bg-red-light
+</div>
+```
+
+## Border style
+
+Use `border-dashed` to give an element a dashed border.
+
+```html
+<div class="border border-dashed p-2">
+  .border-dashed
 </div>
 ```
 

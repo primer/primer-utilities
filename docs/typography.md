@@ -87,14 +87,29 @@ Change the font weight, styles, and alignment with these utilities.
 <p class="text-bold">Bold</p>
 <p class="text-uppercase">Uppercase</p>
 <p class="no-wrap">No wrap</p>
+<p class="ws-normal">Normal whitespace</p>
 <p class="wb-break-all">Line break long lines</p>
 <p class="no-underline">No underline</p>
-<p class="text-left">Left align</p>
-<p class="text-center">Center</p>
-<p class="text-right">Right align</p>
 <p class="text-emphasized">Emphasized</p>
 <p class="text-small">Small</p>
 <p class="lead">Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
+```
+
+## Text alignment
+
+ Use text alignment utilities to left align, center, or right align text.
+
+```html
+<p class="text-left">Left align</p>
+<p class="text-center">Center</p>
+<p class="text-right">Right align</p>
+```
+## Responsive text alignment
+
+Use the following formula to make a text alignment utility responsive: `.text-[breakpoint]-[alignment]`
+
+```html
+<p class="text-left text-sm-center text-lg-right">Left in a small viewport, centered in mid-sized viewports, and right aligned in larger viewports</p>
 ```
 
 ## List styles

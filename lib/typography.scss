@@ -189,6 +189,8 @@
 .no-underline { text-decoration: none !important; }
 /* Don't wrap white space */
 .no-wrap { white-space: nowrap !important; }
+/* Normal white space */
+.ws-normal { white-space: normal !important; }
 /* Allow long lines with no spaces to line break */
 .wb-break-all { word-break: break-all !important; }
 
