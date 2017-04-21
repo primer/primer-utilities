@@ -1,3 +1,7 @@
+# v4.2.4
+
+ * update versions for primer-core suppor and utilities - broccolini [github/github@167ed79](https://github.com/github/github/commit/167ed79)
+
 # v4.2.3
 
  * incorporate @broccolini's feedback - Sophie Shepherd [github/github@d7335bb](https://github.com/github/github/commit/d7335bb)fe4e
