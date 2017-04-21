@@ -3,7 +3,7 @@ title: Margin
 status: Stable
 ---
 
-Margin utilities are based on a global [spacing scale](/styleguide/css/support/variables#spacers) which helps keep horizontal and vertical spacing consistent. These utilities help us reduce the amount of custom CSS that share the same properties, and allows to achieve many different page layouts using the same styles.
+Margin utilities are based on a global [spacing scale](/styleguide/css/styles/core/support/spacing) which helps keep horizontal and vertical spacing consistent. These utilities help us reduce the amount of custom CSS that share the same properties, and allows to achieve many different page layouts using the same styles.
 
 {:toc}
 
@@ -22,12 +22,12 @@ Since margin utilities have many variations and will be used in many places, we 
 | x | horizontal, left & right |
 | y | vertical, top & bottom |
 | 0 | 0 |
-| 1 | 3px |
-| 2 | 6px |
-| 3 | 12px |
+| 1 | 4px |
+| 2 | 8px |
+| 3 | 16px |
 | 4 | 24px |
-| 5 | 36px |
-| 6 | 48px |
+| 5 | 32px |
+| 6 | 40px |
 
 _**Note:** The blue in the examples represents the element, and the orange represents the margin_
 
